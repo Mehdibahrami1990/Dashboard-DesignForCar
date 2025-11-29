@@ -94,13 +94,13 @@ This project follows a clean folder structure and modern front-end architecture 
 
 ⚙️ Installation
 
-# 1. Clone project
-git clone https://github.com/yourname/car-rental-dashboard.git
+## 1. Clone project
+https://github.com/Mehdibahrami1990/Dashboard-DesignForCar.git
 
-# 2. Install dependencies
+## 2. Install dependencies
 npm install
 
-# 3. Run development
+## 3. Run development
 npm run dev
 
 --- 
