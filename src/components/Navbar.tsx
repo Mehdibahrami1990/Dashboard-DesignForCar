@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <header className="headerCss">
       <div className="flex items-center gap-4">
-        <div className="h-12 w-12 rounded-2xl bg-slate-900 text-white flex items-center justify-center text-lg font-semibold">
+        <div className="logoCss">
           AU
         </div>
         <div>
