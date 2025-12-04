@@ -19,9 +19,9 @@ const ovo = Ovo({
 }) as any;
 
 export const metadata: Metadata = {
-  title: "Made by Mehdi | Dashboard Design For a Car Rental Service",
+  title: "Auto Ultimate | Vehicles",
   description:
-    "Explore the portfolio of Mehdi Bahrami — a Frontend Developer passionate about building high-performance, user-centered web experiences with React, Next.js, and TypeScript.",
+    "Car Rental Dashboard — A modern, scalable, and production-ready Car Rental Dashboard built with Next.js 15 App Router, Server Actions, TypeScript, React 19, and Tailwind CSS",
 };
 
 export default function RootLayout({

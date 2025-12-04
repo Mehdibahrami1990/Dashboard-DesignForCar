@@ -6,7 +6,7 @@ interface LayoutProps {
 
 const Layout = ({ children }: LayoutProps) => {
   return (
-    <div className="dark:bg-[#11001F] dark:text-white transition-colors duration-300">
+    <div className="transition-colors duration-300">
       <Navbar />
       {children}
     </div>
@@ -14,3 +14,4 @@ const Layout = ({ children }: LayoutProps) => {
 };
 
 export default Layout;
+// dark:bg-[#11001F] dark:text-white
