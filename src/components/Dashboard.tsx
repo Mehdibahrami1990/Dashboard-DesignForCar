@@ -50,11 +50,42 @@ const Dashboard = () => {
           </div>
         </div>
         <div>
-          <p>Hourly price range</p>
-          <div>Price chart</div>
-          <div>
+          <p className="text-xs font-semibold text-slate-500 mb-4">
+            Hourly price range
+          </p>
+          <div className="h-16 rounded-2xl bg-slate-100 flex items-center justify-center text-sm text-slate-500">
+            Price chart
+          </div>
+          <div className="flex items-center justify-between text-sm text-slate-500 mt-2">
             <span>from 18$</span>
             <span>to 100$</span>
+          </div>
+        </div>
+        <div className="grid grid-cols-2 gap-4 text-sm">
+          <div>
+            <p className="text-xs font-semibold text-slate-500 mb-2">Brand</p>
+            <select
+              name=""
+              id=""
+              className="w-full rounded-2xl border  border-slate-200"
+            >
+              <option value="">All</option>
+              <option value="">Audi</option>
+              <option value="">Toyota</option>
+              <option value="">Mazda</option>
+            </select>
+          </div>
+          <div>
+            <p className="text-xs font-semibold text-slate-500 mb-2">GearBox</p>
+            <select
+              name=""
+              id=""
+              className="w-full rounded-2xl border border-slate-200"
+            >
+              <option value="">Both</option>
+              <option value="">Automatic</option>
+              <option value="">Manual</option>
+            </select>
           </div>
         </div>
       </aside>
