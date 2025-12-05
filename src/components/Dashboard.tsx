@@ -67,7 +67,7 @@ const Dashboard = () => {
             <select
               name=""
               id=""
-              className="w-full rounded-2xl border  border-slate-200 h-full px-2"
+              className="w-full rounded-2xl border  border-slate-200 h-full px-2 cursor-pointer"
             >
               <option value="">All</option>
               <option value="">Audi</option>
@@ -80,7 +80,7 @@ const Dashboard = () => {
             <select
               name=""
               id=""
-              className="w-full rounded-2xl border border-slate-200 h-full px-2"
+              className="w-full rounded-2xl border border-slate-200 h-full px-2 cursor-pointer"
             >
               <option value="">Both</option>
               <option value="">Automatic</option>
@@ -92,23 +92,40 @@ const Dashboard = () => {
           <p className="text-xs font-semibold text-slate-500 mb-3">Body type</p>
           <div className="grid grid-cols-2 gap-3 text-sm text-slate-600">
             <label htmlFor="">
-              <input type="checkbox" checked /> Sedan
+              <input type="checkbox" checked className="cursor-pointer" /> Sedan
             </label>
             <label htmlFor="" className="flex items-center gap-2">
-              <input type="checkbox" checked/> Coupe
+              <input type="checkbox" checked className="cursor-pointer" /> Coupe
             </label>
             <label htmlFor="" className="flex items-center gap-2">
-              <input type="checkbox" /> Cross Over
+              <input type="checkbox" className="cursor-pointer" /> Cross Over
             </label>
             <label htmlFor="" className="flex items-center gap-2">
-              <input type="checkbox" /> Pickup
+              <input type="checkbox" className="cursor-pointer" /> Pickup
             </label>
             <label htmlFor="" className="flex items-center gap-2">
-              <input type="checkbox" checked /> SUV
+              <input type="checkbox" checked className="cursor-pointer" /> SUV
             </label>
             <label htmlFor="" className="flex items-center gap-2">
-              <input type="checkbox" /> Electric
+              <input type="checkbox" className="cursor-pointer" /> Electric
             </label>
+          </div>
+        </div>
+        <div>
+          <p className="text-xs font-semibold text-slate-500 mb-3">Fuel</p>
+          <div className="flex flex-wrap gap-2 text-xs">
+            <span className="px-3 py-1.5 rounded-2xl border border-slate-200 cursor-pointer">
+              Gasoline
+            </span>
+            <span className="px-3 py-1.5 rounded-2xl border border-slate-200 cursor-pointer">
+              Diesel
+            </span>
+            <span className="px-3 py-1.5 rounded-2xl border border-slate-200 cursor-pointer">
+              Hybrid
+            </span>
+            <span className="px-3 py-1.5 rounded-2xl border border-slate-200 cursor-pointer">
+              Electric
+            </span>
           </div>
         </div>
       </aside>
