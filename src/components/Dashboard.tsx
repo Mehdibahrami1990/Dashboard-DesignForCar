@@ -61,13 +61,13 @@ const Dashboard = () => {
             <span>to 100$</span>
           </div>
         </div>
-        <div className="grid grid-cols-2 gap-4 text-sm">
+        <div className="grid grid-cols-2 gap-4 text-sm mb-9">
           <div>
             <p className="text-xs font-semibold text-slate-500 mb-2">Brand</p>
             <select
               name=""
               id=""
-              className="w-full rounded-2xl border  border-slate-200"
+              className="w-full rounded-2xl border  border-slate-200 h-full px-2"
             >
               <option value="">All</option>
               <option value="">Audi</option>
@@ -80,12 +80,35 @@ const Dashboard = () => {
             <select
               name=""
               id=""
-              className="w-full rounded-2xl border border-slate-200"
+              className="w-full rounded-2xl border border-slate-200 h-full px-2"
             >
               <option value="">Both</option>
               <option value="">Automatic</option>
               <option value="">Manual</option>
             </select>
+          </div>
+        </div>
+        <div>
+          <p className="text-xs font-semibold text-slate-500 mb-3">Body type</p>
+          <div className="grid grid-cols-2 gap-3 text-sm text-slate-600">
+            <label htmlFor="">
+              <input type="checkbox" checked /> Sedan
+            </label>
+            <label htmlFor="" className="flex items-center gap-2">
+              <input type="checkbox" checked/> Coupe
+            </label>
+            <label htmlFor="" className="flex items-center gap-2">
+              <input type="checkbox" /> Cross Over
+            </label>
+            <label htmlFor="" className="flex items-center gap-2">
+              <input type="checkbox" /> Pickup
+            </label>
+            <label htmlFor="" className="flex items-center gap-2">
+              <input type="checkbox" checked /> SUV
+            </label>
+            <label htmlFor="" className="flex items-center gap-2">
+              <input type="checkbox" /> Electric
+            </label>
           </div>
         </div>
       </aside>
